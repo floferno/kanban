@@ -1,5 +1,5 @@
 # Kanban Board
-A digital board to help visualizing and trackig your team collaboration. Work phases are represented as columns and cards are getting moved from one stage to the next.
+A digital board to help visualizing and trackig your team collaboration. Work phases represented as columns and cards are getting moved from one stage to the next.
 
 Users can read all members' tasks and only have authorization to create, update, and delete their own tasks.
 
