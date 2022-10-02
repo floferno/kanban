@@ -9,7 +9,8 @@ How to Run Server:
 How to Run Client:
 > npm run start
 
-##Login Page
+## Login Page
+![sign in](https://user-images.githubusercontent.com/58562757/193468200-ba9e7dd7-76a1-44f7-9c96-1f40b70e482d.png)
 
-
-##Register Page
+## Register Page
+![reg](https://user-images.githubusercontent.com/58562757/193468206-40771223-4caf-4f0b-9b68-e6c491983ecf.png)
