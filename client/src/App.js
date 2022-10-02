@@ -15,7 +15,7 @@ function App() {
   return (
     <div>
       {isLoggedIn ? <HomePage toggleHaveAccount={toggleHaveAccount} /> : <LoginPage toggleHaveAccount={toggleHaveAccount} />}
-      {isRegistered ? <RegisterPage toggleHaveAccount={toggleHaveAccount} /> : <HomePage toggleHaveAccount={toggleHaveAccount} />}
+      {/* {isRegistered ? <RegisterPage toggleHaveAccount={toggleHaveAccount} /> : <HomePage toggleHaveAccount={toggleHaveAccount} />} */}
     </div>
   );
 }

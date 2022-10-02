@@ -9,7 +9,7 @@ export default function LoginPage({ props, toggleHaveAccount }) {
             <form className="login-form">
                 <img src={loginImage} className="login-image" alt="Working Woman"></img>
                 <div className="login-form-content">
-                    <h3 className="login-form-title">Sign In</h3>
+                    <h3 className="login-form-title">Log In</h3>
                     <div className="form-group">
                         <div className="form-group-text">
                             <MdEmail className="form-group-icon" /><label>Email</label>
