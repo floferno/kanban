@@ -3,6 +3,12 @@ A digital board to help visualizing and trackig your team collaboration. Work ph
 
 Users can read all members' tasks and only have authorization to create, update, and delete their own tasks.
 
+How to Run Server:
+> nodemon app.js
+
+How to Run Client:
+> npm run start
+
 # 1. POST /register
 
 - **To create a new user**

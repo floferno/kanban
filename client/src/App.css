@@ -1,0 +1,123 @@
+* {
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  background-color: white;
+}
+
+.login-image, .register-image {
+  width:60%;
+  padding-right: 25px;
+}
+
+.login-form-container .register-form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.login-form-content, .register-form-content {
+  display: flex;
+  flex-direction: column;
+  gap:10px;
+}
+
+
+.register-form, .login-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 800px;
+  height: 550px;
+  box-shadow: rgb(0 0 0 / 16%) 1px 1px 10px;
+  border-radius: 8px;
+  background-color: white;
+  margin: 55px auto;
+
+}
+
+.login-form-title, .register-form-title {
+  font-family: 'Karla', sans-serif;
+  text-align: center;
+  margin-bottom: 1em;
+  font-size: 45px;
+  color: #885FB9;
+  font-weight: 800;
+}
+
+.form-group{
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group-text {
+  display: flex;
+  align-items: center
+}
+.form-group-icon {
+  margin-top: 2px;
+  width: 20px;
+  height: 15px;
+}
+.form-group-4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+label {
+  font-size: 16px;
+  font-weight: 500;
+  color: rgb(81, 81, 81);
+  margin-bottom: 3px;
+}
+
+input {
+  width: 230px;
+  height: 35px;
+  border-radius: 8px;
+  border: 2px solid #cdaaf9;
+  text-indent: 10px;
+  
+}
+
+input:focus {
+  outline: none;
+  border-color: #cdaaf9;
+  box-shadow: 0 0 10px #a57dd4;
+}
+
+.btn-submit {
+  background-color: #885FB9;
+  height: 40px;
+  width: 90px;
+  border: none;
+  color: white;
+  border-radius: 10px;
+  display: flex;
+  font-size: 16px;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-submit:hover {
+  background-color: #6d449f;
+  cursor: pointer;
+}
+
+.have-account-link {
+  margin-top: 20px;
+  font-size: 16px;
+  color:#885FB9;
+}
+
+.have-account-link:hover {
+  cursor: pointer;
+  color: #6d449f;
+}
